@@ -1,46 +1,43 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <link rel="stylesheet" href="usercss.css">
-        
-    </head>
-    <body>
-        <label for="ch_usuarios">ch_usuarios</label>
-        <select name="ch_usuarios" id="ch_usuarios">
-            <option>id_usr:INTERGER(11) </option>
-            <option>id_pais: INTERGER(3)(FK) </option>
-            <option>nombre: VARCHAR(25) </option>
-            <option>apellido: VARCHAR(25) </option>
-            <option>direccion: VARCHAR(45) </option>
-            <option>ccusuario: VARCHAR(25) </option>
-            <option>ccpaswd: TEXT </option>
-            <option>email: CARCHAR(120) </option>
-            <option>telefono: VARCHAR(20) </option>
-        </select>
-        <form>
-            id_usr: <input type="INTERGER" name="id_usr" maxlength="11" />
-            <br/>
-            id_pais: <input type="INTERGER" name="id pais" maxlength="3" />
-            <br/>
-            nombre: <input type="VARCHAR" name="nombre" maxlength="25" />
-            <br/>
-            apellido: <input type="VARCHAR" name="apellido" maxlength="25" />
-            <br/>
-            direccion: <input type="VARCHAR" name="direccion" maxlength="45" />
-            <br/>
-            ccusuario: <input type="VARCHAR" name="ccusuario" maxlength="25" />
-            <br/>
-            ccpaswd: <input type="text" name="ccpaswd"  />
-            <br/>
-            email: <input type="VARCHAR" name="email" maxlength="120" />
-            <br/>
-            telefono: <input type="VARCHAR" name="relefono" maxlength="20" />
-            <br/>
-          
-          
-        </form>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>userccss</title>
+    <link rel="stylesheet" href="usercss.css">
+    <h1>CSS1</h1>
+</head>
+<body>
+    <div>
+        <h3>Formulario</h3>
+    <section>
+    <form  name="mi formulario">
+        <label for=id> id_usr:</label> <input type="INTERGER" name="id_usr" maxlength="11" id="id" />
+        <br/>
+        <label> id_pais:</label> <select name="" id="">
+        <option value="">Peru</option>
+        <option value="">Colombia</option>
+        <option value="">Chile</option> 
+    </select>
+        <br/>
+        <label> nombre:</label> <input type="VARCHAR" name="nombre" maxlength="25" />
+        <br/>
+        <label> apellido:</label> <input type="VARCHAR" name="apellido" maxlength="25" />
+        <br/>
+        <label> direccion:</label> <input type="VARCHAR" name="direccion" maxlength="45" />
+        <br/>
+        <label> ccusuario:</label> <input type="VARCHAR" name="ccusuario" maxlength="25" />
+        <br/>
+        <label> ccpaswd:</label> <input type="password" name="ccpaswd"  />
+        <br/>
+        <label> email:</label> <input type="email" name="email" maxlength="120" />
+        <br/>
+        <label> telefono:</label> <input type="number" name="relefono" maxlength="20" />
+        <br/>
+        <input type="submit">
 
-    </body>
-
-
+    </form>
+</section>
+    </div>
+</body>
 </html>

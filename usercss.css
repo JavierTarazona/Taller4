@@ -1,0 +1,22 @@
+h1{
+    font-size: x-large;
+    color: rgb(101, 252, 0);
+}
+h3{
+    color: lightgreen;
+}
+body{
+    background: url(imagenes/123.jpg);
+    text-align: center;
+    font-size: 60px;
+}
+label{
+    color: rgb(226, 10, 10);
+}
+select{
+    color: rgb(2, 2, 2);
+}
+div{
+    width: 960px;
+    margin: auto;
+}
