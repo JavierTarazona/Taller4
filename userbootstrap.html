@@ -1,47 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bootstrap</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="userbooststrap.css"> 
+
+
+
+    <div class="container">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <h1>CSS2</h1>
+    </div>
     
 </head>
 <body>
-    <div>
+    <div class="container">
+    <header>
+    
         <h3>Formulario</h3>
-    <section>
-    <form  name="mi formulario">
-        <label for=id> id_usr:</label> <input type="INTERGER" name="id_usr" maxlength="11" id="id" />
-        <br/>
-        <label> id_pais:</label> 
-        <select name="" id="">
-        <option value="">Peru</option>
-        <option value="">Colombia</option>
-        <option value="">Chile</option> 
-        </select>
-        <br/>
-        <label> nombre:</label> <input type="VARCHAR" name="nombre" maxlength="25" />
-        <br/>
-        <label> apellido:</label> <input type="VARCHAR" name="apellido" maxlength="25" />
-        <br/>
-        <label> direccion:</label> <input type="VARCHAR" name="direccion" maxlength="45" />
-        <br/>
-        <label> ccusuario:</label> <input type="VARCHAR" name="ccusuario" maxlength="25" />
-        <br/>
-        <label> ccpaswd:</label> <input type="password" name="ccpaswd"  />
-        <br/>
-        <label> email:</label> <input type="email" name="email" maxlength="120" />
-        <br/>
-        <label> telefono:</label> <input type="number" name="relefono" maxlength="20" />
-        <br/>
-        <input type="submit">
-
-    </form>
-</section>
+    </header>
+    <div class="container">
+        <section class="main row"> 
+            <article class="col-xs col-sm- col-md- col-lg- col-lg-9">
+            <form  name="mi formulario">
+                <label for=id> id_usr:</label> <input type="INTERGER" name="id_usr" maxlength="11" id="id" />
+                <br/>
+                <label> id_pais:</label> 
+                <select name="" id="">
+                <option value="">Peru</option>
+                <option value="">Colombia</option>
+                <option value="">Chile</option> 
+                </select>
+                <br/>
+                <label> nombre:</label> <input type="VARCHAR" name="nombre" maxlength="25" />
+                <br/>
+                <label> apellido:</label> <input type="VARCHAR" name="apellido" maxlength="25" />
+                <br/>
+                <label> direccion:</label> <input type="VARCHAR" name="direccion" maxlength="45" />
+                <br/>
+                <label> ccusuario:</label> <input type="VARCHAR" name="ccusuario" maxlength="25" />
+                <br/>
+                <label> ccpaswd:</label> <input type="password" name="ccpaswd"  />
+                <br/>
+                <label> email:</label> <input type="email" name="email" maxlength="120" />
+                <br/>
+                <label> telefono:</label> <input type="number" name="relefono" maxlength="20" />
+                <br/>
+            </article>
+            <aside class="col-xs col-sm- col-md- col-lg- col-lg-3"></aside>
+                <input type="submit">
+        
+            </form>
+        </section>
+    </div>
     </div>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
