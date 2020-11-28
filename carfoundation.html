@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Registro de autos</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+
+    </head>
+
+    <body>
+
+        <h1 id="encabezado">Registro de  autos</h1>
+
+        <form  id="formulario" action="carrcss.html">
+
+            <div class="cell small-12">
+                <label>Coche
+                    <input type="number" placeholder="1234" aria-describedby="exampleHelpTextNumber" required pattern="number">
+                    <span class="form-error">
+                    Hay que ingresar un numero.
+                    </span>
+                </label>
+                <p class="help-text" id="exampleHelpTextNumber">Aqui se ingresa el id del coche.</p>
+            </div>
+
+            <label id="idmovidoalab">Tipo de combustible</label>
+            <select id="idmovidoasel">
+                <option value="123">123</option>
+                <option value="456">456</option>
+                <option value="789">789</option>
+            </select><br>
+
+            <label>Tipo de coche
+    <select>
+      <option value="123">123</option>
+      <option value="456">123</option>
+      <option value="789">123</option>
+    </select>
+  </label><br>
+
+            <label id="idestadolab">Estado</label>
+            <select id="idestadosel">
+                <option value="123">123</option>
+                <option value="456">456</option>
+                <option value="789">789</option>
+            </select><br>
+
+            <label id="idmarcalab">Marca</label>
+            <select id="idmarcasel">
+                <option value="123">123</option>
+                <option value="456">456</option>
+                <option value="789">789</option>
+            </select><br>
+
+            <label id="iduserlab">Usuario</label>
+            <input type="number" minlength="0" maxlength="11" id="iduserinp"><br>
+
+            <label id="modelolab">Modelo</label>
+            <input type="text" minlength="1" maxlength="60" id="modeloinp"><br>
+
+            <label id="aniolab">Anio</label>
+            <input type="text" minlength="4" maxlength="4" id="anioinp"><br>
+
+            <label id="detallelab">Detalle</label>
+            <input type="text" id="detalleinp"><br>
+
+            <label id="cajalab">Caja</label>
+            <input type="number" id="cajainp"><br>
+
+            <label id="motorlab">Motor</label>
+            <input type="number" min="0" max="2.2" step="any" id="motorinp"><br>
+
+            <label id="fechapublab">Fecha de publicacion</label>
+            <input type="text" minlength="10" maxlength="10" id="fechapubinp"><br>
+
+            <label id="preciolab">Precio</label>
+            <input type="number" min="0" max="6.2" step="any" id="precioinp"><br>
+
+            <label id="monedalab">Moneda</label>
+            <input type="text" minlength="1" maxlength="3" id="monedainp"><br>
+
+            <label id="ccpic01lab">Descripcion 1</label>
+            <input type="text" maxlength="85" id="ccpic01inp"><br>
+
+            <label id="ccpic02lab">Descripcion 2</label>
+            <input type="text" maxlength="85" id="ccpic02inp"><br>
+
+            <label id="ccpic03lab">Descripcion 3</label>
+            <input type="text" maxlength="85" id="ccpic03inp"><br>
+
+            <label id="ccdestacadolab">Destacado</label>
+            <input type="text" maxlength="2" id="ccdestacadoinp"><br>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+
+    </body>
+
+</html>
